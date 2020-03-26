@@ -6,7 +6,7 @@ namespace CShp_UnitTestMoq
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Unit tests using XUnit and Moq Framework!");
         }
     }
 }

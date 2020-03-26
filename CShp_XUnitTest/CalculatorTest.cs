@@ -23,7 +23,6 @@ namespace CShp_XUnitTest
             //Assert
             Assert.Equal("add", op.operation);
             Assert.Equal(7.7, op.result);
-
         }
 
         [Fact]
@@ -42,7 +41,6 @@ namespace CShp_XUnitTest
             //Assert
             Assert.Equal("sub", op.operation);
             Assert.Equal(-1.3, op.result);
-
         }
 
         [Fact]

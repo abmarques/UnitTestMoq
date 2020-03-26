@@ -8,6 +8,7 @@ namespace CShp_UnitTestMoq
         {
             (string op, double result) opResult;
             double c;
+
             switch (op)
             {
                 case "add":
@@ -26,8 +27,10 @@ namespace CShp_UnitTestMoq
                     c = a + b;
                     break;
             }
+
             opResult = (op, c);
             return opResult;
+
         }
     }
 }
