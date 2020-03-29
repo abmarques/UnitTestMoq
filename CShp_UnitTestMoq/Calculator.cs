@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CShp_UnitTestMoq
+namespace UnitTestMoq.Calculator
 {
     public class Calculator : ICalculator
     {

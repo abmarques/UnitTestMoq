@@ -1,4 +1,4 @@
-﻿namespace CShp_UnitTestMoq
+﻿namespace UnitTestMoq.Calculator
 {
     public interface ICalculator
     {

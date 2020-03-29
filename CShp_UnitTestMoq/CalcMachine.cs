@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CShp_UnitTestMoq
+namespace UnitTestMoq.Calculator
 {
     public class CalcMachine
     {
