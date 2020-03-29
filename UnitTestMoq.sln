@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestMoq.Calculator", "UnitTestMoq.Calculator\UnitTestMoq.Calculator.csproj", "{9A09437E-140F-480D-B0D9-DD9EFCE8EEB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMoq.CalculatorTests", "UnitTestMoq.CalculatorTests\UnitTestMoq.CalculatorTests.csproj", "{FB198163-3C2A-43E6-B3A7-E83D41F1DC04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestMoq.CalculatorTests", "UnitTestMoq.CalculatorTests\UnitTestMoq.CalculatorTests.csproj", "{FB198163-3C2A-43E6-B3A7-E83D41F1DC04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMoq.PriceVerifier", "UnitTestMoq.PriceVerifier\UnitTestMoq.PriceVerifier.csproj", "{D15B48E6-28F0-448F-ADAC-ACDE7D3A988A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMoq.PriceVerifierTests", "UnitTestMoq.PriceVerifierTests\UnitTestMoq.PriceVerifierTests.csproj", "{31D2F9CC-00FD-4F2C-9FA7-A9B1DCBCAD1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{FB198163-3C2A-43E6-B3A7-E83D41F1DC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB198163-3C2A-43E6-B3A7-E83D41F1DC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB198163-3C2A-43E6-B3A7-E83D41F1DC04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15B48E6-28F0-448F-ADAC-ACDE7D3A988A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15B48E6-28F0-448F-ADAC-ACDE7D3A988A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15B48E6-28F0-448F-ADAC-ACDE7D3A988A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15B48E6-28F0-448F-ADAC-ACDE7D3A988A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D2F9CC-00FD-4F2C-9FA7-A9B1DCBCAD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D2F9CC-00FD-4F2C-9FA7-A9B1DCBCAD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D2F9CC-00FD-4F2C-9FA7-A9B1DCBCAD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D2F9CC-00FD-4F2C-9FA7-A9B1DCBCAD1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
